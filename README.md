@@ -92,3 +92,40 @@ Project Manager (PM) - Oversees the overall execution of the project
   Scrum Master - Facilitates daily stand-ups, sprint planning, and retrospectives
 - Removes impediments for the team
 - Promotes agile best practices Improves team efficiency and ensures adherence to the agile process for iterative success
+
+### 🧱 UI Component Patterns
+
+As part of building a clean and scalable Airbnb Clone interface, this section outlines the reusable UI components that will be created to ensure consistency and efficiency throughout the application.
+
+🔧 Planned Components
+🔝 Navbar
+
+A responsive top navigation bar that includes the logo, search input, navigation links (e.g., “Become a host,” “Help,” “Sign In”), and a user menu icon.
+
+Stays fixed at the top on scroll and adapts to screen sizes.
+
+🏠 Property Card
+
+A modular card used to display property previews within the listing view.
+
+Includes a thumbnail image, title, location, price per night, star rating, and a short description.
+
+Cards will be interactive with hover effects and clickable elements to view detailed property pages.
+
+⬇️ Footer
+
+A consistent site-wide footer containing links to About, Help, Terms, Privacy, and social media icons.
+
+Will also include language, currency, and region selectors for better global accessibility.
+
+Additional reusable UI components that may be included:
+
+🔘 Button – Reusable with multiple variants (primary, secondary, icon buttons)
+
+📦 Modal – For login forms, filters, or booking confirmation
+
+📍 Map Preview – Mini-map component for property location previews
+
+📆 Date Picker – For selecting booking dates
+
+📄 Form Input Components – Input, select, checkbox components for forms
