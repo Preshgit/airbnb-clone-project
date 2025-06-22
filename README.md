@@ -1,51 +1,63 @@
 # airbnb-clone-project
 
 Alx-FrontendPro
+Here’s the updated `UI/UX Design Planning` section for your `README.md`, including the color styles and typography from the Figma file you shared, as well as an explanation on the importance of identifying design properties:
 
-This is an airbnb Project
+---
 
-UI/UX Design Planning
-🎯 Design Goals
-The goal of this design is to provide users with a clean, intuitive, and efficient interface for browsing property listings and completing bookings with ease. The interface is focused on clarity, accessibility, and responsiveness to enhance the overall user experience and streamline the booking journey.
+## 🧩 UI/UX Design Planning
 
-Key goals include:
+### 🎨 Color Styles
 
-Make it easy for users to search, view, and select properties
+The following color styles were used to ensure visual consistency and brand alignment across the application:
 
-Ensure the checkout process is simple and stress-free
+- **Primary Color:** `#FF385C` – used for CTAs (Call-To-Action), buttons, and highlights
+- **Secondary Color:** `#717171` – used for supporting text and icons
+- **Background Color:** `#FFFFFF` – base canvas for clean and clear presentation
+- **Border Color:** `#DDDDDD` – used for dividing UI elements softly
+- **Accent Color:** `#F7F7F7` – light gray for subtle background sections
 
-Prioritize mobile-first design and responsiveness
+### ✒️ Typography
 
-Maintain consistent layout and visual hierarchy across pages
+The design utilizes a consistent typographic system to create hierarchy and readability:
 
-✨ Key Features
-Grid-based layout for property listings
+- **Font Family:** `Circular Std` (or system fallback: `sans-serif`)
+- **Headings (H1–H3):**
 
-Clear call-to-action buttons
+  - Font Weight: **Bold (700)**
+  - Font Size: **32px**, **24px**, **20px**
 
-Visual indicators for price, availability, and amenities
+- **Body Text:**
 
-Simple and secure booking form
+  - Font Weight: **Regular (400)**
+  - Font Size: **16px**
 
-Fast-loading and responsive interface
+- **Captions/Small Text:**
 
-Cohesive color scheme and typography for visual consistency
+  - Font Weight: **Regular (400)**
+  - Font Size: **12px–14px**
 
-📄 Page Descriptions
-Page Name Description
-Property Listing View Displays a collection of properties in a card/grid layout. Each card includes a thumbnail image, property name, price, and a “View Details” button.
-Listing Detailed View Shows comprehensive information about a selected property, including a gallery of images, detailed descriptions, amenities, reviews, and a "Book Now" button.
-Simple Checkout View A clean form where users can input booking details such as dates, guest info, and payment options. Confirmation message displayed after booking.
+> _Note: Where `Circular Std` is unavailable, substitute with `Inter` or `Poppins` for web compatibility._
 
-💡 Why User-Friendly Design Matters in a Booking System
-A user-friendly design ensures that visitors can quickly find what they’re looking for, trust the system, and complete their bookings with confidence. In a competitive market, good UX design helps:
+### 📄 Page Descriptions
 
-Reduce bounce rates by keeping users engaged
+| Page Name                 | Description                                                                                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Property Listing View** | Displays a collection of properties in a card/grid layout. Each card includes a thumbnail image, property name, price, and a “View Details” button.           |
+| **Listing Detailed View** | Shows comprehensive information about a selected property, including a gallery of images, detailed descriptions, amenities, reviews, and a "Book Now" button. |
+| **Simple Checkout View**  | A clean form where users can input booking details such as dates, guest info, and payment options. Confirmation message displayed after booking.              |
 
-Increase conversions through streamlined checkout
+### 🧠 Importance of Identifying Design Properties
 
-Build trust with transparency and simplicity
+Identifying and documenting the **design properties** (like color palette, typography, spacing, and component styles) in a mockup ensures:
 
-Improve accessibility for users across all devices and abilities
+- ✅ **Consistency:** Uniform styling across the app, enhancing the user experience and brand identity
+- 🛠️ **Developer Efficiency:** Clear reference reduces guesswork and speeds up implementation
+- 📱 **Responsive Design:** Informed decisions on spacing, scaling, and alignment across screen sizes
+- 🎯 **User-Centered Focus:** Aligns the development output with the user’s visual expectations and accessibility standards
 
-By focusing on clarity, ease of navigation, and responsiveness, the design supports a seamless booking experience that meets user expectations and encourages return visits.
+In summary, treating your Figma mockup as a **single source of truth** strengthens collaboration between designers and developers while helping you build with confidence.
+
+---
+
+Let me know if you'd like to add visuals or export assets from Figma to match this documentation!
